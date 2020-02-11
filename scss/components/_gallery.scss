@@ -1,0 +1,9 @@
+.gallery {
+    @include flex-col(100%);
+    & .gallery-row:first-child {
+        margin-top: 1rem;
+    };
+    & .gallery-row:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+}
